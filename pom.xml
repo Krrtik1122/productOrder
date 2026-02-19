@@ -9,11 +9,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<!-- ✅ Bring Spring Boot version and plugin management -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.4</version>   <!-- Latest stable -->
+		<version>3.3.4</version>  
 		<relativePath/>
 	</parent>
 
@@ -22,7 +21,7 @@
 		<spring-cloud.version>2024.0.0</spring-cloud.version>
 	</properties>
 
-	<!-- ✅ BOM imports for Spring Cloud, Sleuth/Zipkin, Micrometer -->
+	
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
